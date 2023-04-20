@@ -101,3 +101,25 @@ button {
   width: 150px;
   color: #1f2739;
 }
+
+/*CSS for testimonial */
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 50px 130px;
+  padding-bottom: 60px;
+}
+
+.testimonial p {
+  color: #1f2739;
+}
+
+.testimonial .quote {
+  font-style: italic;
+  font-size: 36px;
+  text-align: left;
+}
+
+.testimonial .name {
+  font-weight: 900;
+  text-align: right;
+}
