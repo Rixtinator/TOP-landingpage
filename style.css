@@ -60,3 +60,26 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+/*CSS for middle part with small images*/
+.information {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.image-small {
+  border: 3px solid #3882f6;
+  border-radius: 16px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.objects {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  border: 3px solid red;
+}
