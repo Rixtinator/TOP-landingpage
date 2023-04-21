@@ -161,3 +161,11 @@ button {
 .block .cta-text {
   font-weight: 300;
 }
+
+/*CSS for the footer*/
+.footer p {
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px;
+}
