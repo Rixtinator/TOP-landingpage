@@ -27,10 +27,6 @@ button:hover,
   background-color: rgb(183, 56, 56);
 }
 
-.header {
-  padding: 0 230px;
-}
-
 /*CSS for menu*/
 .menu img {
   width: 120px;
@@ -53,15 +49,20 @@ button:hover,
 /*CSS for hero*/
 .hero {
   display: flex;
-  align-items: flex-start;
-  gap: 40px;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
   margin: 70px 0px 120px;
+}
+
+.header-left {
+  flex: 1 1 300px;
 }
 
 .hero img {
   width: 550px;
   height: auto;
-  flex: 0 1 auto;
 }
 
 .hero-text {
@@ -69,16 +70,8 @@ button:hover,
   font-weight: 900;
 }
 
-.header-left,
-.image {
-  flex: 1;
-}
-
-.image {
-  background: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header {
+  padding: 0 230px;
 }
 
 /*CSS for middle part with small images*/
@@ -108,6 +101,7 @@ button:hover,
   display: flex;
   text-align: center;
   justify-content: space-between;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
